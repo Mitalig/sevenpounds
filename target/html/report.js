@@ -85,14 +85,14 @@ formatter.match({
   "location": "DashboardPageStepDefinition.you_are_on_Dashboard_page()"
 });
 formatter.result({
-  "duration": 40142135736,
+  "duration": 40144716316,
   "status": "passed"
 });
 formatter.match({
   "location": "DashboardPageStepDefinition.you_are_on_menu()"
 });
 formatter.result({
-  "duration": 9953998740,
+  "duration": 2985806625,
   "status": "passed"
 });
 formatter.match({
@@ -109,35 +109,7 @@ formatter.match({
   "location": "DashboardPageStepDefinition.check_menu_and_login(String,String)"
 });
 formatter.result({
-  "duration": 35195177019,
-  "status": "passed"
-});
-formatter.uri("MensPageFeatures.feature");
-formatter.feature({
-  "line": 1,
-  "name": "Men\u0027s Page Feature",
-  "description": "",
-  "id": "men\u0027s-page-feature",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "line": 3,
-  "name": "To test Mens page functionality",
-  "description": "",
-  "id": "men\u0027s-page-feature;to-test-mens-page-functionality",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 4,
-  "name": "You are on Mens page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "MensPageStepDefinition.you_are_on_mens_page()"
-});
-formatter.result({
-  "duration": 76226,
+  "duration": 35561641837,
   "status": "passed"
 });
 });
