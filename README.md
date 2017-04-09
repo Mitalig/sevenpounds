@@ -1,3 +1,8 @@
+Following two scenarios are tested:
+Check whether About Us option is present in the Menu List
+Check whether Login is Successful
+
+
 List of softwares required to run:
 Java 
 node.js

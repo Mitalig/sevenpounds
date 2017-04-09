@@ -85,14 +85,14 @@ formatter.match({
   "location": "DashboardPageStepDefinition.you_are_on_Dashboard_page()"
 });
 formatter.result({
-  "duration": 40144716316,
+  "duration": 40153786902,
   "status": "passed"
 });
 formatter.match({
   "location": "DashboardPageStepDefinition.you_are_on_menu()"
 });
 formatter.result({
-  "duration": 2985806625,
+  "duration": 2407002536,
   "status": "passed"
 });
 formatter.match({
@@ -109,7 +109,7 @@ formatter.match({
   "location": "DashboardPageStepDefinition.check_menu_and_login(String,String)"
 });
 formatter.result({
-  "duration": 35561641837,
+  "duration": 35044075169,
   "status": "passed"
 });
 });
