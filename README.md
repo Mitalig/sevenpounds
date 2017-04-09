@@ -4,14 +4,14 @@ Check whether Login is Successful
 
 
 List of softwares required to run:
-Java 
-node.js
-Android Studio
-appium
-Eclipse
-Set Java Path in environment variable
-Create ANDROID_HOME variable and set it's path to sdk folder
-Set path to platforms folder and platform-tools folder in environment variable.
+Java,
+node.js,
+Android Studio,
+appium,
+Eclipse,
+Set Java Path in environment variable,
+Create ANDROID_HOME variable and set it's path to sdk folder,
+Set path to platforms folder and platform-tools folder in environment variable,
 In sdk folder of android, click on SDK Manager to download required api level of android.
 
 
