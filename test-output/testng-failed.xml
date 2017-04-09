@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Cucumber Suite]" parallel="tests">
+  <parameter name="appPackage" value=""/>
+  <parameter name="appActivity" value=""/>
+  <parameter name="sPlatformAppPath" value="/Users/ashwin/work/learning/sevenpounds/resources/JabongOnlineFashionShopping.apk"/>
+  <parameter name="Platform" value="Device"/>
+  <parameter name="port" value="4723"/>
+  <parameter name="platformVersion" value="7.0"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="deviceName" value="Moto G5 Plus"/>
+  <parameter name="deviceId" value="ZY223XL54B"/>
+  <parameter name="sPlatformIpAddress" value="127.0.0.1"/>
+  <test name="Cucumber Test1">
+    <parameter name="appPackage" value=""/>
+    <parameter name="appActivity" value=""/>
+    <parameter name="sPlatformAppPath" value="/Users/ashwin/work/learning/sevenpounds/resources/JabongOnlineFashionShopping.apk"/>
+    <parameter name="Platform" value="Device"/>
+    <parameter name="port" value="4723"/>
+    <parameter name="platformVersion" value="7.0"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Moto G5 Plus"/>
+    <parameter name="deviceId" value="ZY223XL54B"/>
+    <parameter name="sPlatformIpAddress" value="127.0.0.1"/>
+    <classes>
+      <class name="com.testrunner.TestRunner"/>
+    </classes>
+  </test> <!-- Cucumber Test1 -->
+</suite> <!-- Failed suite [Cucumber Suite] -->

@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name ="Cucumber Suite" parallel="tests" thread-count = "2" >
+
+<test name="Cucumber Test1">
+<parameter name="Platform" value="Device"/>    
+<parameter name="deviceName" value="Moto G5 Plus"/>    
+<parameter name="platformName" value="Android"/>    
+<parameter name="platformVersion" value="7.0"/>    
+<parameter name="appPackage" value=""/>  
+<parameter name="appActivity" value=""/>    
+<parameter name="sPlatformAppPath" value="/Users/ashwin/work/learning/sevenpounds/resources/JabongOnlineFashionShopping.apk"/>    
+<parameter name="sPlatformIpAddress" value="127.0.0.1"/>    
+<parameter name="deviceId" value="ZY223XL54B"/>    
+<parameter name="port" value="4723"/>    
+
+<classes>
+<class name ="com.testrunner.TestRunner"/>
+</classes>
+</test>
+
+
+<!-- <test name="Cucumber Test2">
+<parameter name="Platform" value="Emulator"/>    
+<parameter name="deviceName" value="GoogleNexus"/>    
+<parameter name="platformName" value="Android"/>    
+<parameter name="platformVersion" value="5.0"/>    
+<parameter name="appPackage" value="com.android.chrome"/>  
+<parameter name="appActivity" value="com.google.android.apps.chrome.Main"/>    
+<parameter name="sPlatformAppPath" value="/Users/ashwin/work/learning/sevenpounds/resources/JabongOnlineFashionShopping.apk"/>    
+<parameter name="sPlatformIpAddress" value="127.0.0.1"/>    
+<parameter name="deviceId" value="192.168.56.101:5555"/>    
+<parameter name="port" value="4723"/>
+<classes>
+<class name ="com.testrunner.TestRunner"/>
+</classes>
+</test> -->
+
+</suite>
