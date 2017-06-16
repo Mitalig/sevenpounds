@@ -9,6 +9,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
+
+
 public class GenericMethods {
 
 	public static void click(WebDriver driver, String sLocator) {
@@ -17,7 +19,7 @@ public class GenericMethods {
 	}
 
 	public static void input(WebDriver driver, String sLocator, String inputValue) {
-		waitMethod(driver, sLocator);
+		waitToClickMethod(driver, sLocator);
 		driver.findElement(By.xpath(sLocator)).sendKeys(inputValue);
 	}
 
@@ -49,13 +51,66 @@ public class GenericMethods {
 		return scrollTo;
 
 	}
+	
+	 public static void swipeLeft (WebDriver driver) {
+
+       int screenWidth = driver.manage ().window ().getSize ().getWidth ();
+       int screenHeight = driver.manage ().window ().getSize ().getHeight ();
+       // Swipe Left
+       int startx = screenWidth / 9;
+       int endx = screenWidth * 8 / 9;
+       int starty = screenHeight / 2;
+       int endy = screenHeight / 2;
+       ((AppiumDriver) driver).swipe (startx, starty, endx, endy, 5000);
+
+     }
+	 
+	 public static void swipeRight (WebDriver driver) {
+
+     
+
+       int screenWidth = driver.manage ().window ().getSize ().getWidth ();
+       int screenHeight = driver.manage ().window ().getSize ().getHeight ();
+       // Swipe Right
+       int startx = screenWidth * 8 / 9;
+       int endx = screenWidth / 9;
+       int starty = screenHeight / 2;
+       int endy = screenHeight / 2;
+       ((AppiumDriver) driver).swipe (startx, starty, endx, endy, 5000);
+
+
+     
+   }
+     
+	 
+	 public static boolean isElementPresent(WebDriver driver, String sLocator)  {
+			waitMethod(driver, sLocator);
+	    boolean elementSize	=driver.findElements(By.xpath(sLocator)).size()>0;
+	    return elementSize;
+	  }
+	 
+	 public static boolean isElementPresentWithoutWait(WebDriver driver, String sLocator)  {
+	    boolean elementSize	=driver.findElements(By.xpath(sLocator)).size()>0;
+	    return elementSize;
+	  }
+	 
 
 	public static WebElement scrollDown(WebDriver driver, String text) {
+		
+		try {
+		
 		WebElement scrollTo = ((AndroidDriver) driver).findElementByAndroidUIAutomator(
 				"new UiScrollable(new UiSelector().scrollable(true).instance(1)).scrollIntoView"
-						+ "(new UiSelector().textContains(\"" + text + "\").instance(1))");
+						+ "(new UiSelector().textContains(\"" + text + "\").instance(3))");
 
 		return scrollTo;
+		
+		}
+		catch(Exception e)  {
+			
+			
+    }
+		return null;
 
 	}
 

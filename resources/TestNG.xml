@@ -8,7 +8,7 @@
 <parameter name="platformVersion" value="7.0"/>    
 <parameter name="appPackage" value=""/>  
 <parameter name="appActivity" value=""/>    
-<parameter name="sPlatformAppPath" value="/Users/ashwin/work/learning/sevenpounds/resources/JabongOnlineFashionShopping.apk"/>    
+<parameter name="sPlatformAppPath" value="/Users/ashwin/work/learning/sevenpounds/resources/Astro.apk"/>    
 <parameter name="sPlatformIpAddress" value="127.0.0.1"/>    
 <parameter name="deviceId" value="ZY223XL54B"/>    
 <parameter name="port" value="4723"/>    

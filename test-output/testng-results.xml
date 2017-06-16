@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Cucumber Suite" duration-ms="98030" started-at="2017-04-09T15:51:33Z" finished-at="2017-04-09T15:53:11Z">
+  <suite name="Cucumber Suite" duration-ms="225625" started-at="2017-06-16T12:26:12Z" finished-at="2017-06-16T12:29:58Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@42e26948]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Cucumber Test1" duration-ms="98030" started-at="2017-04-09T15:51:33Z" finished-at="2017-04-09T15:53:11Z">
+    <test name="Cucumber Test1" duration-ms="225625" started-at="2017-06-16T12:26:12Z" finished-at="2017-06-16T12:29:58Z">
       <class name="com.testrunner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testrunner.TestRunner@42e26948]" name="setUpClass" is-config="true" duration-ms="275" started-at="2017-04-09T21:21:33Z" finished-at="2017-04-09T21:21:33Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testrunner.TestRunner@42e26948]" name="setUpClass" is-config="true" duration-ms="208" started-at="2017-06-16T17:56:12Z" finished-at="2017-06-16T17:56:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="beforeSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testrunner.TestRunner@42e26948]" name="beforeSetup" is-config="true" duration-ms="17522" started-at="2017-04-09T21:21:33Z" finished-at="2017-04-09T21:21:51Z">
+        <test-method status="PASS" signature="beforeSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testrunner.TestRunner@42e26948]" name="beforeSetup" is-config="true" duration-ms="21601" started-at="2017-06-16T17:56:13Z" finished-at="2017-06-16T17:56:34Z">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
             </param>
             <param index="6">
               <value>
-                <![CDATA[/Users/ashwin/work/learning/sevenpounds/resources/JabongOnlineFashionShopping.apk]]>
+                <![CDATA[/Users/ashwin/work/learning/sevenpounds/resources/Astro.apk]]>
               </value>
             </param>
             <param index="7">
@@ -70,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSetup -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@42e26948]" name="feature" duration-ms="77664" started-at="2017-04-09T21:21:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-04-09T21:23:08Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunner@42e26948]" name="feature" duration-ms="200685" started-at="2017-06-16T17:56:34Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-06-16T17:59:55Z">
           <params>
             <param index="0">
               <value>
@@ -81,11 +81,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.testrunner.TestRunner@42e26948]" name="shutDown" is-config="true" duration-ms="2450" started-at="2017-04-09T21:23:08Z" finished-at="2017-04-09T21:23:11Z">
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:com.testrunner.TestRunner@42e26948]" name="shutDown" is-config="true" duration-ms="3029" started-at="2017-06-16T17:59:55Z" finished-at="2017-06-16T17:59:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testrunner.TestRunner@42e26948]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2017-04-09T21:23:11Z" finished-at="2017-04-09T21:23:11Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testrunner.TestRunner@42e26948]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2017-06-16T17:59:58Z" finished-at="2017-06-16T17:59:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
