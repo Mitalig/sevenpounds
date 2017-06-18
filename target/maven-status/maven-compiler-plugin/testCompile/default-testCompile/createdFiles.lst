@@ -1,0 +1,9 @@
+com/setup/WebDriverFactory.class
+com/pageobjects/DashboardPage.class
+com/setup/StartAndStopAppium.class
+com/setup/MobileSetup.class
+com/pagedefinitions/DashboardPageStepDefinition.class
+com/setup/GenericMethods.class
+com/setup/PropertiesUtils.class
+com/testrunner/TestRunner.class
+com/setup/ConstantLocators.class

@@ -5,7 +5,7 @@
   <groupId>sevenpounds</groupId>
   <artifactId>sevenpounds</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
   
 
   <name>sevenpounds</name>

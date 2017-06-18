@@ -91,8 +91,9 @@ public class DashboardPage {
 		GenericMethods.click(driver, ConstantLocators.favShow);
 		GenericMethods.click(driver, ConstantLocators.reminderButton);
 		GenericMethods.click(driver, ConstantLocators.favButton);
-		GenericMethods.clickAndroidBackButton(driver);
 		GenericMethods.waitFor(3000);
+		GenericMethods.clickAndroidBackButton(driver);
+		GenericMethods.waitFor(5000);
 		//GenericMethods.scrollDownEnd(driver, ConstantLocators.aboutus).isDisplayed();
 		GenericMethods.click(driver, ConstantLocators.favTab);
     Assert.assertFalse(GenericMethods.isElementPresentWithoutWait(driver, ConstantLocators.favShow));

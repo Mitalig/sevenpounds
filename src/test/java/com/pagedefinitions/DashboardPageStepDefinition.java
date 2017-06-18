@@ -34,7 +34,7 @@ public class DashboardPageStepDefinition extends MobileSetup {
 	public void clickOnLogin() {
 		dp.clickOnLoginAndAgree();
 		try {
-			Thread.sleep(20000);
+			Thread.sleep(10000);
 		}
 		catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -86,5 +86,4 @@ public class DashboardPageStepDefinition extends MobileSetup {
 	}
 	
 
-	
 }
